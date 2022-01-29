@@ -18,7 +18,7 @@ header {
   width: 100%;
 }
 
-.header {
+.header-bg-image {
   background-image: url(./src/bg.png);
   height: 100vmin;
   background-repeat: no-repeat;
@@ -95,12 +95,51 @@ h2 {
   margin-top: 76px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1;
   gap: 28px;
 }
 .service-cards div {
   padding: 38px 23px;
-  width: 295px;
-  height: 330px;
   border: 1px solid #e6e6e6;
+}
+.footer-bg-image {
+  background-image: url(./src/bg-footer.png);
+  height: 100vmin;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hero-text-footer {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background: #171819;
+  color: white;
+}
+.contact-information-bg {
+  background: #141a20;
+  display: grid;
+}
+.contact-information {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, [col] 1fr);
+  grid-template-columns: repeat(2, [row] 1fr);
+}
+.links h3 {
+  grid-column: span 3;
 }
