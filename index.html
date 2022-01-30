@@ -16,23 +16,29 @@
           <div class="hero-text">
             <img src="src/logo-white.png" alt="logo-white" />
             <section>
-              <h2>PARTNER WITH KONSTUCT</h2>
+              <h1>PARTNER WITH KONSTUCT</h1>
               <p>An award-winning construction management firm</p>
             </section>
-            <button>Scroll down</button>
+            <button id="scrollDown" onclick="Scroll()">Scroll down</button>
           </div>
         </div>
         <div class="nav">
           <nav class="wrapper">
             <img src="/src/projeco-logo-black.png" alt="logo-black" />
             <ul>
-              <li>Home</li>
+              <li>
+                <a href="#">Home</a>
+              </li>
               <li>
                 <a href="#about">About</a>
               </li>
               <li><a href="#services">Services</a></li>
-              <li>Work</li>
-              <li>Contact</li>
+              <li>
+                <a href="#">Work</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -42,8 +48,9 @@
           <h2 class="grid-item1">OUR STORY</h2>
           <div>
             <h3>
-              Founded in 2011 by John Mathew Smith, Konstruct has become the
-              number one construction management firm
+              Founded in 2011 by John Mathew Smith,
+              <span class="colorizer">Konstruct</span> has become the number one
+              construction management firm
             </h3>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
@@ -53,7 +60,7 @@
               aliquam erat.
             </p>
           </div>
-          <div>
+          <div class="item-about1">
             <img src="./src/plan.png" alt="plan" />
             <img src="./src/manage.png" alt="manage" />
             <img src="./src/deliver.png" alt="deliver" />
@@ -67,7 +74,7 @@
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat.
             </p>
-            <button>ALL SERVICES</button>
+            <button class="casual-button">ALL SERVICES</button>
           </div>
           <div class="service-cards">
             <div class="service-card1">
@@ -100,17 +107,17 @@
           </div>
         </div>
       </main>
-      <footer class="">
+      <footer>
         <div class="footer-bg-image">
           <div class="hero-text-footer">
             <h2>Want to build something amazing?</h2>
-            <button>GET IN TOUCH</button>
+            <button class="casual-button">GET IN TOUCH</button>
           </div>
         </div>
         <div class="signup">
           <h2>Newsletter Signup</h2>
           <input type="email" placeholder="test@youremail.com" />
-          <button>SIGNUP</button>
+          <button class="casual-button">SIGNUP</button>
         </div>
         <div class="contact-information-bg">
           <div class="wrapper contact-information">
@@ -143,23 +150,26 @@
                 <li>News</li>
               </ul>
             </div>
-            <div>
+            <div class="contact-us">
               <h3>Contact Us</h3>
-              <pre>
-                213 Baker Street
-                Oriel City Kounty
-                7000 KNW,
-                Kountry Name 
-
-                +23 994 233 4022 
-
+              <p>
+                213 Baker Street Oriel City Kounty 7000 KNW,
+                <br />
+                Kountry Name
+                <br />
+                <br />
+                +23 994 233 4022
+                <br />
+                <br />
                 info@konstruct.com
-              </pre>
+              </p>
+              <img src="/src/socials.png" alt="" />
             </div>
           </div>
         </div>
-        <p>May be copyright here</p>
+        <p class="copyright wrapper">Might be copyright here</p>
       </footer>
     </div>
+    <script src="scrypt.js"></script>
   </body>
 </html>
